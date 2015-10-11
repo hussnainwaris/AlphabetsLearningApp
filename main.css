@@ -1,0 +1,353 @@
+
+
+
+.wrong {
+	display:none;
+}
+
+.wrong:target{
+display:block;
+}
+
+.wrong1 {
+	display:none;
+}
+
+.wrong1:target{
+display:block;
+}
+
+.image div{
+	
+	display:none;
+}
+
+ .image div:target{
+	
+	display:block;
+
+}
+
+#background{
+	background-image: url("images/back.jpg");
+	height: 100%;
+	width:100%;
+
+}
+
+.figure{
+	left:550px;
+	position: absolute;
+	float: center;
+	margin: 0.5em;
+	padding:0.5em;
+	text-align: center;
+	font-style: italic;
+	text-indent: 0;
+}
+
+img{
+
+	width:280px;
+	height:280px;
+	border-radius: 50px;
+	border: solid green;
+	/*width: 100%;*/
+}
+
+
+
+.para{
+font-size: 40px;
+font-family: 'Raleway', sans-serif;;
+color:#7B68EE;
+}
+
+#styl{
+	color: #FF6699;
+}
+.nav{
+  margin: 0;
+  padding: 20px 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+#home{
+	border-radius: 20px;
+	font-size:60px;
+}
+
+.button{
+	list-style:none;
+	margin-top:50px;
+	padding:0;
+}
+
+.button li {
+	width:275px;
+	height:275px;
+	display:inline-block;
+	background-color:#aaa;
+	margin-right:10px
+
+}
+
+/*images by sprites*/
+
+.button li.apple{
+	background: url(images/alpha.jpg) no-repeat ;
+}
+
+.button li.ball{
+	background: url(images/alpha.jpg) no-repeat -420px -20px ;
+}
+
+.button li.cake{
+	background: url(images/alpha.jpg) no-repeat -820px -20px ;
+}
+
+.button li.dog{
+	background: url(images/alpha.jpg) no-repeat -1200px -20px ;
+}
+
+.button li.elephant{
+	background: url(images/alpha.jpg) no-repeat -0px -380px ;
+}
+
+.button li.frog{
+	background: url(images/alpha.jpg) no-repeat -420px -360px ;
+}
+
+.button li.grapes{
+	background: url(images/alpha.jpg) no-repeat -850px -340px ;
+}
+
+.button li.hat{
+	background: url(images/alpha.jpg) no-repeat -1260px -350px ;
+}
+
+.button li.igloo{
+	background: url(images/alpha.jpg) no-repeat -20px -694px ;
+}
+
+.button li.juice{
+	background: url(images/alpha.jpg) no-repeat -480px -680px ;
+}
+
+.button li.key{
+	background: url(images/alpha.jpg) no-repeat -860px -675px ;
+}
+
+.button li.lion{
+	background: url(images/alpha.jpg) no-repeat -1270px -675px ;
+}
+
+
+.button li.mouth{
+	background: url(images/alpha.jpg) no-repeat -0px -1010px ;
+}
+
+.button li.net{
+	background: url(images/alpha.jpg) no-repeat -440px -1015px ;
+}
+
+.button li.orange{
+	background: url(images/alpha.jpg) no-repeat -860px -998px ;
+}
+
+.button li.pencil{
+	background: url(images/alpha.jpg) no-repeat -1290px -1015px ;
+}
+
+.button li.queen{
+	background: url(images/alpha.jpg) no-repeat -5px -1330px ;
+}
+
+.button li.rabbit{
+	background: url(images/alpha.jpg) no-repeat -490px -1328px ;
+}
+
+.button li.snake{
+	background: url(images/alpha.jpg) no-repeat -890px -1328px ;
+
+}
+
+.button li.tomato{
+	background: url(images/alpha.jpg) no-repeat -1200px -1325px ;
+}
+
+.button li.umbrella{
+	background: url(images/alpha.jpg) no-repeat -160px -1665px ;
+}
+
+.button li.violin{
+	background: url(images/alpha.jpg) no-repeat -550px -1665px ;
+}
+
+.button li.wolf{
+	background: url(images/alpha.jpg) no-repeat -930px -1660px ;
+}
+
+.button li.xylophene{
+	background: url(images/alpha.jpg) no-repeat -440px -1965px ;
+}
+
+.button li.yolk{
+	background: url(images/alpha.jpg) no-repeat -840px -1960px ;
+}
+
+.button li.zebra{
+	background: url(images/alpha.jpg) no-repeat -1160px -1920px ;
+}
+
+
+
+
+/*sprites for images of letters    */
+
+.letter{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.letter li {
+	width:55px;
+	height:55px;
+	display:inline-block;
+	background-color:#aaa;
+	margin-right:10px
+
+}
+
+.letter li.leta{
+	background: url(images/letter.jpg) no-repeat -0px -5px;
+}
+
+.letter li.letb{
+	background: url(images/letter.jpg) no-repeat -50px -5px;
+
+}
+
+.letter li.letc{
+	background: url(images/letter.jpg) no-repeat -100px -5px;
+
+}
+
+.letter li.letd{
+	background: url(images/letter.jpg) no-repeat -140px -5px;
+
+}
+
+.letter li.lete{
+	background: url(images/letter.jpg) no-repeat -190px -5px;
+
+}
+
+.letter li.letf{
+	background: url(images/letter.jpg) no-repeat -230px -5px;
+
+}
+
+.letter li.letg{
+	background: url(images/letter.jpg) no-repeat -280px -5px;
+
+}
+
+.letter li.leth{
+	background: url(images/letter.jpg) no-repeat -335px -5px;
+
+}
+
+.letter li.leti{
+	background: url(images/letter.jpg) no-repeat -375px -5px;
+
+}
+
+.letter li.letj{
+	background: url(images/letter.jpg) no-repeat 5px -70px;
+
+}
+
+.letter li.letk{
+	background: url(images/letter.jpg) no-repeat -38px -70px;
+
+}
+
+.letter li.letl{
+	background: url(images/letter.jpg) no-repeat -73px -70px;
+
+}
+
+.letter li.letm{
+	background: url(images/letter.jpg) no-repeat -115px -70px;
+
+}
+
+.letter li.letn{
+	background: url(images/letter.jpg) no-repeat -170px -70px;
+
+}
+
+.letter li.leto{
+	background: url(images/letter.jpg) no-repeat -220px -70px;
+
+}
+
+.letter li.letp{
+	background: url(images/letter.jpg) no-repeat -270px -70px;
+
+}
+
+.letter li.letq{
+	background: url(images/letter.jpg) no-repeat -320px -70px;
+
+}
+
+.letter li.letr{
+	background: url(images/letter.jpg) no-repeat -380px -70px;
+
+}
+.letter li.lets{
+	background: url(images/letter.jpg) no-repeat -10px -130px;
+
+}
+.letter li.lett{
+	background: url(images/letter.jpg) no-repeat -60px -130px;
+
+}
+.letter li.letu{
+	background: url(images/letter.jpg) no-repeat -110px -130px;
+
+}
+.letter li.letv{
+	background: url(images/letter.jpg) no-repeat -160px -130px;
+
+}
+.letter li.letw{
+	background: url(images/letter.jpg) no-repeat -210px -130px;
+
+}
+.letter li.letx{
+	background: url(images/letter.jpg) no-repeat -260px -130px;
+
+}
+.letter li.lety{
+	background: url(images/letter.jpg) no-repeat -300px -130px;
+
+}
+.letter li.letz{
+	background: url(images/letter.jpg) no-repeat -350px -130px;
+
+}
+
+.figure li, .letter li {
+    border-radius: 50px;
+    overflow: hidden;
+    border:  solid green;
+}
+a {
+	text-decoration: none;
+}
